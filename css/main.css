@@ -5,7 +5,7 @@ html {
   color: #222;
   font-size: 20px;
   line-height: 1.4;
-  background: #fae060;
+  background: white;
   font-family: Montserrat, sans-serif;
   min-width: 320px;
 }
@@ -25,21 +25,11 @@ body {
   text-align: center;
 }
 
-.logo,
-.logo-hidden {
+.logo {
   white-space: nowrap;
   font-size: 5rem;
   margin: 1rem 5rem;
   font-family: "Comfortaa", monospace;
-}
-
-.logo-hidden {
-  display: none;
-  letter-spacing: -9px;
-}
-
-.logo-hidden .accent {
-  margin: 0 30px 0 10px;
 }
 
 @media (max-width: 1024px) {
@@ -50,13 +40,13 @@ body {
 
 @media (max-width: 900px) {
   .logo {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 
 @media (max-width: 600px) {
   .logo {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -110,5 +100,8 @@ body {
 
 .contact-block .icon {
   margin-right: 0.2rem;
+}
+
+.contact-block a .icon {
   color: #ba4000;
 }
